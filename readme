@@ -1,0 +1,48 @@
+
+With detections, the PDF will look like:
+
+Intrusion Detection Report
+
+Report Generated: 2025-08-14 15:55:43
+Sender Company: Company1
+Receiver Company: Company2
+File Transmitted: PAYMENT HISTORY.png
+Monitoring Duration: 30 seconds
+Total Detections: 1
+Threats Blocked: 1
+
+Detection Summary
+Timestamp | Source IP      | Threat Type | Confidence | Action        | Protocol | Packet Size
+15:55:30 | 34.36.57.103   | neptune     | 0.9874     | Blocked       | TCP      | 128 bytes
+
+Detailed Threat Logs
+Timestamp: 2025-08-14 15:55:30
+Source IP: 34.36.57.103
+Prediction: neptune
+Confidence: 0.9874
+Action: ❌ BLOCKED IP 34.36.57.103
+Protocol: TCP
+Packet Size: 128 bytes
+=========
+
+Security Summary
+⚠️ THREATS DETECTED: 1 potential threats identified. 1 threats were successfully blocked.
+
+
+
+----------------------------------------------------------------------------------------------------
+Without detections:
+
+Intrusion Detection Report
+Report Generated: 2025-08-14 15:55:43
+Sender Company: Company1
+Receiver Company: Company2
+File Transmitted: PAYMENT HISTORY.png
+Monitoring Duration: 30 seconds
+Total Detections: 0
+Threats Blocked: 0
+
+No intrusions detected during monitoring period.
+
+Security Summary
+✅ SECURE TRANSMISSION: No security threats were detected during the file transfer.
